@@ -1,0 +1,6 @@
+framework module XWKit {
+  umbrella header "XWKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

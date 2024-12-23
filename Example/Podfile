@@ -1,0 +1,12 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'XWKit_Example' do
+  pod 'XWKit', :path => '../'
+
+  target 'XWKit_Tests' do
+    inherit! :search_paths
+
+  end
+end

@@ -1,0 +1,53 @@
+{
+  "name": "XWKit",
+  "version": "1.0.0",
+  "summary": "基础扩展",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jay/XWKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jay": "jayorw@126.com"
+  },
+  "source": {
+    "git": "https://github.com/Jay/XWKit.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "requires_arc": true,
+  "static_framework": true,
+  "swift_versions": [
+    "5"
+  ],
+  "subspecs": [
+    {
+      "name": "Extension",
+      "source_files": "XWKit/Classes/Extension/*"
+    },
+    {
+      "name": "Namespace",
+      "source_files": "XWKit/Classes/Namespace/*"
+    },
+    {
+      "name": "Core",
+      "source_files": "XWKit/Classes/Core/*"
+    },
+    {
+      "name": "BaseUI",
+      "source_files": "XWKit/Classes/BaseUI/*",
+      "dependencies": {
+        "SnapKit": [
+
+        ],
+        "DZNEmptyDataSet": [
+
+        ]
+      }
+    }
+  ],
+  "swift_version": "5"
+}

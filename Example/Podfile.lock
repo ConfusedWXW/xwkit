@@ -1,0 +1,35 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - SnapKit (5.6.0)
+  - XWKit (1.0.0):
+    - XWKit/BaseUI (= 1.0.0)
+    - XWKit/Core (= 1.0.0)
+    - XWKit/Extension (= 1.0.0)
+    - XWKit/Namespace (= 1.0.0)
+  - XWKit/BaseUI (1.0.0):
+    - DZNEmptyDataSet
+    - SnapKit
+  - XWKit/Core (1.0.0)
+  - XWKit/Extension (1.0.0)
+  - XWKit/Namespace (1.0.0)
+
+DEPENDENCIES:
+  - XWKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - DZNEmptyDataSet
+    - SnapKit
+
+EXTERNAL SOURCES:
+  XWKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  XWKit: 119591dc2dc9f97c73d6b86a289cbd89cd931001
+
+PODFILE CHECKSUM: c12b0024d70eacad637ef67691cd1505cd0e79fd
+
+COCOAPODS: 1.15.2
